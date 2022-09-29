@@ -109,7 +109,7 @@ main {
 .gameofthrones {
     height: 211px;
     width: 375px;
-    background-image: url(img/gameofthrones.jpg);
+    background-image: url(gameofthrones.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -117,7 +117,7 @@ main {
 .misfits {
     height: 211px;
     width: 375px;
-    background-image: url(img/misfits.jpg);
+    background-image: url(misfits.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -125,7 +125,7 @@ main {
 .blackmirror {
     height: 211px;
     width: 375px;
-    background-image: url(img/Black-mirror.jpg);
+    background-image: url(Black-mirror.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -133,7 +133,7 @@ main {
 .hp1 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp1.jpg);
+    background-image: url(Hp1.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -141,7 +141,7 @@ main {
 .hp2 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp2.jpg);
+    background-image: url(Hp2.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -149,7 +149,7 @@ main {
 .hp3 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp3.jpg);
+    background-image: url(Hp3.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -157,7 +157,7 @@ main {
 .hp4 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp4.jpg);
+    background-image: url(Hp4.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -165,7 +165,7 @@ main {
 .hp5 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp5.jpg);
+    background-image: url(Hp5.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -173,7 +173,7 @@ main {
 .hp6 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp6.jpg);
+    background-image: url(Hp6.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -181,7 +181,7 @@ main {
 .hp7 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp8.jpg);
+    background-image: url(Hp8.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -189,7 +189,7 @@ main {
 .hp8 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp9.jpg);
+    background-image: url(Hp9.jpg);
     background-size: cover;
     border-radius: 5%;
 }
@@ -197,7 +197,7 @@ main {
 .hp9 {
     height: 300px;
     width: 203px;
-    background-image: url(img/Hp10.jpg);
+    background-image: url(Hp10.jpg);
     background-size: cover;
     border-radius: 5%;
 }
