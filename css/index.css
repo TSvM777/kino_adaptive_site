@@ -112,6 +112,7 @@ main {
     background-image: url(../img/gameofthrones.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .misfits {
@@ -120,6 +121,7 @@ main {
     background-image: url(../img/misfits.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .blackmirror {
@@ -128,6 +130,7 @@ main {
     background-image: url(../img/Black-mirror.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp1 {
@@ -136,6 +139,7 @@ main {
     background-image: url(../img/Hp1.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp2 {
@@ -144,6 +148,7 @@ main {
     background-image: url(../img/Hp2.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp3 {
@@ -152,6 +157,7 @@ main {
     background-image: url(../img/Hp3.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp4 {
@@ -160,6 +166,7 @@ main {
     background-image: url(../img/Hp4.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp5 {
@@ -168,6 +175,7 @@ main {
     background-image: url(../img/Hp5.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp6 {
@@ -176,6 +184,7 @@ main {
     background-image: url(../img/Hp6.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp7 {
@@ -184,6 +193,7 @@ main {
     background-image: url(../img/Hp8.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp8 {
@@ -192,6 +202,7 @@ main {
     background-image: url(../img/Hp9.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
 }
 
 .hp9 {
@@ -200,6 +211,55 @@ main {
     background-image: url(../img/Hp10.jpg);
     background-size: cover;
     border-radius: 5%;
+    position: relative;
+}
+
+.gameofthrones:hover {
+    top: -10px;
+}
+
+.misfits:hover {
+    top: -10px;
+}
+
+.blackmirror:hover {
+    top: -10px;
+}
+
+.hp1:hover {
+    top: -10px;
+}
+
+.hp2:hover {
+    top: -10px;
+}
+
+.hp3:hover {
+    top: -10px;
+}
+
+.hp4:hover {
+    top: -10px;
+}
+
+.hp5:hover {
+    top: -10px;
+}
+
+.hp6:hover {
+    top: -10px;
+}
+
+.hp7:hover {
+    top: -10px;
+}
+
+.hp8:hover {
+    top: -10px;
+}
+
+.hp9:hover {
+    top: -10px;
 }
 
 .photo4 {
