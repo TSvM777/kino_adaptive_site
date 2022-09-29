@@ -1,0 +1,243 @@
+body {
+    margin-left: calc(50% - 640px);
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 80px;
+    background: #BBB2BF;
+}
+
+.logo-head {
+    margin-left: 50px;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'RF Rostin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    padding: 0 40px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #29EDFF;
+    text-decoration: underline;
+    text-underline-offset: 33px;
+}
+
+.navlist li:not(:last-child) {
+    color: green;
+    opacity: 0.8;
+}
+
+
+.profile-photo img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+
+.profile-photo {
+    margin-right: 50px;
+}
+
+.main {
+    margin: 50px 92px;
+}
+
+main {
+    background: #80815F;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: white;
+    text-shadow: black 1px 1px;
+    width: 300px;
+    height: 25px;
+    margin: 8px 0px;
+}
+
+.year {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #4F4056;
+    width: 300px;
+
+}
+
+.rec {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo {
+    margin: 0px 10px;
+}
+
+.gameofthrones {
+    height: 211px;
+    width: 375px;
+    background-image: url(/img/gameofthrones.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.misfits {
+    height: 211px;
+    width: 375px;
+    background-image: url(/img/misfits.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.blackmirror {
+    height: 211px;
+    width: 375px;
+    background-image: url(/img/Black-mirror.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp1 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp1.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp2 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp2.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp3 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp3.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp4 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp4.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp5 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp5.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp6 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp6.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp7 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp8.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp8 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp9.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.hp9 {
+    height: 300px;
+    width: 203px;
+    background-image: url(/img/Hp10.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.photo4 {
+    display: flex;
+    align-items: center;
+    height: 211px;
+}
+
+h2 {
+    color: #4F4056;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    height: 200px;
+    background: #BBB2BF;
+    align-items: center;
+    justify-content: center;
+}
+
+.mark {
+    width: 52px;
+    height: 30px;
+    background-color: #4F4056;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BBB2BF;
+    margin-left: 12px;
+    transform: translateY(12px)
+}
