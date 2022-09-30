@@ -9,9 +9,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1280px;
     height: 80px;
     background: #BBB2BF;
+}
+
+.onlyphone {
+    display: none;
 }
 
 .logo-head {
@@ -75,7 +78,6 @@ main {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
     letter-spacing: 0.03em;
     color: white;
     text-shadow: black 1px 1px;
@@ -89,7 +91,6 @@ main {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
     letter-spacing: 0.03em;
     text-transform: capitalize;
     color: #4F4056;
@@ -265,6 +266,12 @@ main {
 .photo4 {
     display: flex;
     align-items: center;
+    height: 300px;
+}
+
+.photo1 {
+    display: flex;
+    align-items: center;
     height: 211px;
 }
 
@@ -300,4 +307,140 @@ footer {
     color: #BBB2BF;
     margin-left: 12px;
     transform: translateY(12px)
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+    .rec :nth-child(3):not(p) {
+        display: none;
+    }
+
+    body {
+        margin: 0px;
+        width: 1400px;
+    }
+
+    .main {
+        margin: 40px 32px;
+        font-size: 30px;
+    }
+
+    .hp1,
+    .hp2,
+    .hp4,
+    .hp5,
+    .hp6,
+    .hp7,
+    .hp8 {
+        width: 600px;
+        height: 800px;
+    }
+
+    .gameofthrones,
+    .misfits {
+        width: 600px;
+        height: 350px;
+    }
+
+    .photo1 {
+        height: 350px;
+    }
+
+    .photo4 {
+        height: 800px;
+    }
+
+    .title,
+    .year {
+        width: 600px;
+        height: 50px;
+        font-size: unset;
+    }
+
+    .mark {
+        width: 70px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .footer {
+        scale: 1.8;
+    }
+
+    li {
+        font-size: 30px;
+    }
+
+    li:last-child {
+        scale: 1.5;
+    }
+
+    .header {
+        height: 120px;
+    }
+
+    .profile-photo,
+    .logo-head {
+        scale: 1.5;
+    }
+
+    .onlyphone {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    body {
+        margin: 0px;
+        width: 767px;
+    }
+
+    .rec :nth-child(3):not(p),
+    .rec :nth-child(2):not(p) {
+        display: none;
+    }
+
+    .footer {
+        scale: 1.8
+    }
+
+    li:nth-child(1),
+    li:nth-child(2),
+    li:nth-child(3) {
+        display: none;
+    }
+
+    .header {
+        padding: 13px 16px;
+        height: 60px;
+        justify-content: flex-end;
+    }
+
+    .onlyphone {
+        display: block;
+    }
+
+    .logo-head {
+        margin-right: 300px;
+    }
+
+    .hp1,
+    .hp4,
+    .hp7 {
+        width: 500px;
+        height: 700px;
+    }
+
+    .gameofthrones {
+        width: 500px;
+        height: 300px;
+    }
+
+    .photo4 {
+        height: 700px;
+    }
+
+    .photo1 {
+        height: 300px;
+    }
 }
